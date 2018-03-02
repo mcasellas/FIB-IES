@@ -42,4 +42,4 @@ tipus: TipusAssig |
 (Assignatura, nom)
 (Departament, nom)
 
-~`- Una assignatura no pot ser prerequisit d'ella mateixa`~
+~`- Una assignatura no pot ser prerequisit d'ella mateixa`~ `- L'associació *TéPrerequisits* és acíclica`
