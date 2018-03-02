@@ -20,8 +20,26 @@ Actors d'un cas d'ús: `Entitat externa que participa`
 ----
 ## Laboratori 2:
 
+> Si vull tenir atribut `nul`: crèdits: Real [0..1]
+
 Assignatura|
 -|
 codi: String |
 mon: String |
 crèdits: Real |
+tipus: TipusAssig |
+
+<< enumeration >> TipusAssig|
+-|
+- obligatori |
+- opcional |
+
+
+**Restriccions textual:**
+
+`- Claus externes:`
+(Assignatura, codi)
+(Assignatura, nom)
+(Departament, nom)
+
+~`- Una assignatura no pot ser prerequisit d'ella mateixa`~
