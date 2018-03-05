@@ -3,5 +3,3 @@
 > Teoria: Raimon Lapuente
 >
 > Laboratori: Xavier Oriol
-
-----
